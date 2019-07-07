@@ -1,3 +1,11 @@
+#logo
+{
+    width: 250px;
+    background-color: white;
+}
+
+
+
 .content
 {
      text-align: center;
@@ -55,5 +63,16 @@ li
     .content
     {
         width: 100px;
+    }
+    #logo
+    {
+        width: 220px;
+    }
+}
+@media screen and (max-width: 310px)
+{
+    #logo
+    {
+        width: 170px;
     }
 }
