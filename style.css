@@ -57,15 +57,19 @@ li
         width: 150px;
     }
 }
-@media screen and (max-width: 380px)
+@media screen and (max-width: 400px)
 {
     .content
     {
-        width: 150px;
+        display: none;
     }
     #logo
     {
         width: 220px;
+    }
+    .rightpanel
+    {
+        width: 500px;
     }
 }
 @media screen and (max-width: 310px)
