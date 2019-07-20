@@ -161,6 +161,7 @@ label
     /border-left-color: #aa1f2e;
     border-bottom-color: #aa1f2e;
     border-top-color: #aa1f2e;
+    margin-top: 130px;
 
 }
 section
@@ -251,4 +252,24 @@ section > p
 .checkbox
 {
     padding: 8px;
+}
+
+li
+{
+    border: 1px solid grey;
+    color: #666666;
+    border-radius: 5px;
+    
+}
+.linker
+{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 13px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
+    text-transform: uppercase;
+    color: #666666;
+}
+.checked {
+  color: orange;
 }

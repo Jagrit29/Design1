@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+        <script>tinymce.init({ selector:'textarea' });</script>
     </head>
     <body>
         <div class="main">
@@ -68,75 +70,14 @@
                         <div class="row col-xs-9 col-xs-offset-1 col-md-9 text-center">
                             <div class="formarea">
                                 <form class="form">
-                                    <div class="row">
-                                        <div class="form-group text-left col-xs-6" style="padding: 10px;">
-                                            <label>
-                                                First Name
-                                            </label><br>
-                                            <input type="text" class="form-control" id="inputName" placeholder="First Name">
-                                        </div>
-                                        <div class="form-group text-left col-xs-6" style="padding: 10px;">
-                                            <label>
-                                                Last Name
-                                            </label><br>
-                                            <input type="text" class="form-control" id="inputName" placeholder="Last Name">
-                                        </div>
-                                    </div>
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-xs-9">
+                                       <textarea>Write Your Summary Here!</textarea>
+                                        </div>    
+                                    </div> 
                                     
-                                <div class="row">
-                                     <div class="text-left form-group col-xs-6" style="padding: 10px;">
-                                          <label>
-                                             Email
-                                          </label><br>
-                                          <input type="email" class="form-control" id="inputName" placeholder="Email">
-                                    </div>
-                                    <div class="text-left form-group col-xs-5" style="padding: 10px;l">
-                                         <label>
-                                            Mobile
-                                         </label><br>
-                                         <input type="number" class="form-control" id="inputName" placeholder="Mobile number">
-                                         </div>
-                                </div> 
+
                                     
-                                <div class="row">
-                                     <div class="text-left form-group col-xs-6" style="padding: 10px;">
-                                          <label>
-                                             Skype
-                                          </label><br>
-                                          <input type="text" class="form-control" id="inputName" placeholder="Skype Username">
-                                    </div>
-                                    <div class="text-left form-group col-xs-6" style="padding: 10px;">
-                                         <label>
-                                            Linkedin 
-                                         </label><br>
-                                         <input type="number" class="form-control" id="inputName" placeholder="Linkedin Url">
-                                         </div>
-                                </div>     
-                                    
-                                    
-                                    <div class="row">
-                                        <div class="text-left col-xs-12" style="padding: 10px;">
-                                            <label>
-                                                Address
-                                            </label><br>
-                                            <input style="width: 100%;"type="text" class="form-control" id="inputName" placeholder="Address">
-                                        </div>
-                                    </div>   
-                                
-                                <div class="row">
-                                       <div class="text-left form-group col-xs-6" style="padding: 10px;">
-                                            <label>
-                                               City
-                                            </label><br>
-                                            <input type="text" class="form-control" id="inputName" placeholder="City">
-                                       </div>
-                                       <div class="text-left form-group col-xs-4" style="padding: 10px;l">
-                                            <label>
-                                               PIN
-                                            </label><br>
-                                            <input type="text" class="form-control" id="inputName" placeholder="PinCode">
-                                       </div>
-                                </div>   
                                 
                                     
                                 <div style="margin-top: 0px;">
@@ -155,7 +96,7 @@
                         
                     <div class="rightpanel col-md-2 col-sm-2 col-xs-12  col-md-offset-0 col-sm-offset-0 text-center">
                         <section> 
-                                <img src="rocket1.png">
+                                
                                 <h4><b>Build A<br>Compelling <br>
                                 Resume</b></h4>
                                 <p>Check your spellings,<br> use your intials carefully, if any.<br> A mistake in your name <br> ins't appreciated on a resume.</p> 
