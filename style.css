@@ -3,8 +3,9 @@
     background-color: white;
     width: 100%;
     border-right: px solid #aa1f2e;
-    border-bottom-right-radius: 15% 45%;
-    border-top-right-radius: 25% 45%;
+    border-bottom: 10px solid #aa1f2e;
+    border-bottom-right-radius: 30% 40%;
+    border-top-right-radius:
     border-right-width: 5px;
     box-shadow: 8px 0px 0px 0px #fe6625 ;
     height: 100%;
